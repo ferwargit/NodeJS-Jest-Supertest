@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-jest-supertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferwargit/NodeJS-Jest-Supertest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferwargit/NodeJS-Jest-Supertest/issues"
+  },
+  "homepage": "https://github.com/ferwargit/NodeJS-Jest-Supertest#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
