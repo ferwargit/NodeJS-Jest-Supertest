@@ -42,5 +42,18 @@ describe('POST /tasks', () => {
         });
     })
 
-
+    describe('given no title or description', () => {
+        test('should respond with a 400 status code', async () => {
+            const fields = [
+                {title: ''}, 
+                {description: ''}, 
+                {}
+            ];
+            
+            for (const field of fields) {
+                const response = await request(app).post('/tasks').send(field);
+                expect(response.statusCode).toBe(400);
+            }
+        });
+    });
 });
